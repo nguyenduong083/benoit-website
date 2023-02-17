@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Benoit</title>
+    <link rel="icon" href="favicon.ico">
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+
+    <!-- meta facebook -->
+    <meta property="og:locale" content="vi" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="stylesheet" href="dest/style.min.css">
+    <link rel="stylesheet" href="dest/fonts.css">
+</head>
+
+<!-- Mỗi body của mỗi page nên có class ví dụ homepage, aboutpage, contactpage... -->
+
+<body class="homepage">
+    <!-- HEADER -->
+    <header class="header pd">
+        <div class="container-fluid">
+            <div class="btnmenu"><span></span></div>
+            <div class="header__logo">
+                <a href="./">
+                    <img src="img/logo-header-home.svg" alt="">
+                </a>
+            </div>
+            <ul class="header__menu">
+                <li>
+                    <a href="index.html" class="active">TRANG CHỦ</a>
+                    <ul class="select">
+                        <li>
+                            <a href="index.html">TRANG CHỦ</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">BLOG</a>
+                            <a href="detailblog.html">CHI TIẾT BLOG</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="about.html" >VỀ CHÚNG TÔI</a>
+                    <ul class="select">
+                        <li>
+                            <a href="about.html">VỀ CHÚNG TÔI</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="services.html">DỊCH VỤ</a>
+                    <ul class="select">
+                        <li>
+                            <a href="detailservices.html">CHI TIẾT DỊCH VỤ</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="event.html">SỰ KIỆN</a>
+                    <ul class="select">
+                        <li>
+                            <a href="detailevent.html">CHI TIẾT SỰ KIỆN</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="menuasian.html">THỰC ĐƠN</a>
+                    <ul class="select">
+                        <li>
+                            <a href="menuasian.html">MÓN Á</a>
+                            <a href="menueurope.html">MÓN ÂU</a>
+                            <a href="menudessert.html">MÓN TRÁNG MIỆNG</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="location.html">ĐIỂM ĐẾN</a>
+                    <ul class="select">
+                        <li>
+                            <a href="detaillocation.html">ĐIỂM ĐẾN CHI TIẾT</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="library.html">THƯ VIỆN</a>
+                    <ul class="select">
+                        <li>
+                            <a href="library.html">THƯ VIỆN</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact.html">LIÊN HỆ</a>
+                    <ul class="select">
+                        <li>
+                            <a href="contact.html">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- <div class="selectmenu">
+                <ul>
+                    <li>
+                        <a href="index.html">TRANG CHỦ</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">BLOG</a>
+                        <a href="detailblog.html">CHI TIẾT</a>
+                    </li>
+                    <li>
+                        <a href="detailservices.html">CHI TIẾT</a>
+                    </li>
+                    <li>
+                        <a href="detailevent.html">CHI TIẾT</a>
+                    </li>
+                    <li>
+                        <a href="menuasian.html">MÓN Á</a>
+                        <a href="menueurope.html">MÓN ÂU</a>
+                        <a href="menudessert.html">TRÁNG MIỆNG </a>
+                    </li>
+                    <li>
+                        <a href="detaillocation.html">CHI TIẾT</a>
+                    </li>
+                    <li>
+                        <a href="#">THƯ VIỆN</a>
+                    </li>
+                    <li>
+                        <a href="#">LIÊN HỆ</a>
+                    </li>
+                </ul>
+            </div> -->
+            <div class="header__right">
+                <div class="header__right-lang">
+                    <span class="text">EN</span>
+                    <div class="select">
+                        <a href="#" class="item">VN</a>
+                        <a href="#" class="item">JP</a>
+                        <a href="#" class="item">UA</a>
+                    </div>
+                </div>
+                <a href="./" class="btnheader">
+                    <span class="text">ĐẶT BÀN</span>
+                </a>
+            </div>
+            <div class="nav">
+                <div class="nav__menu">
+                    <a class="logonav" href="./">
+                        <img src="img/logo-header-home.svg" alt="">
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="index.html" class="active">TRANG CHỦ</a>
+                        </li>
+                        <li>
+                            <a href="about.html">VỀ CHÚNG TÔI</a>
+                        </li>
+                        <li>
+                            <a href="services.html">DỊCH VỤ</a>
+                        </li>
+                        <li>
+                            <a href="event.html">SỰ KIỆN</a>
+                        </li>
+                        <li>
+                            <a href="menuasian.html">THỰC ĐƠN</a>
+                        </li>
+                        <li>
+                            <a href="location.html">ĐIỂM ĐẾN</a>
+                        </li>
+                        <li>
+                            <a href="library.html">THƯ VIỆN</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>     
+    </header>
+    <!-- MAIN -->
+    <main>
+        <!-- Example HTML -->
+        <section class="slider">
+            <!-- CHẠY -->
+            <div class="slider__list">
+                <div class="slider__list-item">
+                    <div class="title">
+                        <i><img src="img/logo-slide-home.svg" alt=""></i>
+                        <h2 class="heading">Taste Royale Cuisine</h2>
+                        <span class="text">FEEL THE AROMA</span>
+                        <a href="./" class="btnmain">
+                            KHÁM PHÁ THÊM
+                        </a>
+                    </div>
+                    <img class="imgslide" src="img/slide-home.jpg" alt="">
+                </div>
+                <div class="slider__list-item">
+                    <div class="title">
+                        <i><img src="img/logo-slide-home.svg" alt=""></i>
+                        <h2 class="heading">Taste Royale Cuisine</h2>
+                        <span class="text">FEEL THE AROMA</span>
+                        <a href="./" class="btnmain">
+                            KHÁM PHÁ THÊM
+                        </a>
+                    </div>
+                    <img class="imgslide" src="img/slider-2.jpg" alt="">
+                </div>
+                <div class="slider__list-item">
+                    <div class="title">
+                        <i><img src="img/logo-slide-home.svg" alt=""></i>
+                        <h2 class="heading">Taste Royale Cuisine</h2>
+                        <span class="text">FEEL THE AROMA</span>
+                        <a href="./" class="btnmain">
+                            KHÁM PHÁ THÊM
+                        </a>
+                    </div>
+                    <img class="imgslide" src="img/slider-3.jpg" alt="">
+                </div>
+            </div>
+            <!-- ĐỨNG -->
+            <div class="slider__btn">
+                <div class="container-fluid">
+                    <div class="slider__btn-left">
+                        <div class="icon">
+                            <i><img src="img/icon-vector-left-home.svg" alt=""></i>
+                        </div>
+                    </div>
+                    <div class="slider__btn-right">
+                        <div class="icon">
+                                <i><img src="img/icon-vector-left-home.svg" alt=""></i>            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="frame pd">
+            <div class="container">
+                <div class="frame__item">
+                    <i class="icon"><img src="img/icon-frame-1-home.svg" alt=""></i>
+                    <h3 class="heading">
+                        Fresh Products
+                    </h3>
+                    <span class="text">
+                        For each dish, the growth of every element & the selection
+                    </span>
+                    <a href="./">KHÁM PHÁ THÊM</a>
+                </div>
+                <div class="frame__item">
+                    <i class="icon"><img src="img/icon-frame-2-home.svg" alt=""></i>
+                    <h3 class="heading">
+                        Skilled Chefs
+                    </h3>
+                    <span class="text">
+                        For each dish, the growth of every element & the selection
+                    </span>
+                    <a href="./">KHÁM PHÁ THÊM</a>
+                </div>
+                <div class="frame__item">
+                    <i class="icon"><img src="img/icon-frame-3-home.svg" alt=""></i>
+                    <h3 class="heading">
+                        Best Bar
+                    </h3>
+                    <span class="text">
+                        For each dish, the growth of every element & the selection
+                    </span>
+                    <a href="./">KHÁM PHÁ THÊM</a>
+                </div>
+                <div class="frame__item">
+                    <i class="icon"><img src="img/icon-frame-4-home.svg" alt=""></i>
+                    <h3 class="heading">
+                        Healthy food
+                    </h3>
+                    <span class="text">
+                        For each dish, the growth of every element & the selection
+                    </span>
+                    <a href="./">KHÁM PHÁ THÊM</a>
+                </div>
+                </div>
+        </section>
+        <section class="services pd">
+            <div class="container">
+                <div class="service">
+                    <div class="service__img">
+                        <img src="img/service-home.jpg" alt="">
+                    </div>
+                    <div class="textbox">
+                        <h3 class="heading">
+                            Our services
+                        </h3>
+                        <span class="text">Between Heaven & Earth
+                            <span class="iconcenter"> </span>
+                        </span>
+                        <p class="desc">
+                            The character and philosophy of our type of cuisine, which follows the ancestral technique of using different
+                            types of
+                            firewood, fire, charcoal and the scented trace of the smoke, inherently results in a limitation on the number of
+                            diners
+                            that we can accommodate without sacrificing our essence.
+                        </p>
+                        <p class="descI">
+                            Whisper to us about your feelings, and we will prepare what you need now.
+                        </p>
+                        <a href="./" class="btnmain">
+                            KHÁM PHÁ THÊM
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu">
+            <div class="container">
+                <div class="textbox-center">
+                    <h3 class="heading">
+                        From Our Menu
+                    </h3>
+                    <span class="text">Try Our Special Offers
+                        <span class="iconcenter"> </span>
+                    </span>
+                </div>
+                <div class="menu__list">
+                    <div class="menu__list-left">
+                        <!-- 1 -->
+                        <div class="item">
+                            <div class="top">
+                                <span class="name">Raw Scallops from Erquy</span>
+                                <span class="price">1.000.000đ</span>  
+                            </div>
+                            <div class="bottom">
+                                <p>Candied Jerusalem artichokes, truffle</p>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="item">
+                            <div class="top">
+                                <span class="name">Tender Octopus and Fennel</span>
+                                <span class="price">1.000.000đ</span>
+                            </div>
+                            <div class="bottom">
+                                <p>Citrus, wild rocket condiment</p>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div class="item">
+                            <div class="top">
+                                <span class="name">Sea Bass Ceviche</span>
+                                <span class="price">1.000.000đ</span>
+                            </div>
+                            <div class="bottom">
+                                <p>Avocado, butternut, lime</p>
+                            </div>                             
+                        </div>
+                        <!-- 4 -->
+                        <div class="item">
+                            <div class="top">
+                                <span class="name">Raw Scallops from Erquy</span>
+                                <span class="price">1.000.000đ</span>
+                            </div>       
+                            <div class="bottom">
+                                <p>Citrus, wild rocket condiment</p>
+                            </div>                    
+                        </div>
+                        <!-- 5 -->
+                        <div class="item">
+                            <div class="top">
+                                <span class="name">Celeriac and Truffle Ravioli</span> 
+                                <span class="price">1.000.000đ</span>              
+                            </div>
+                            <div class="bottom">
+                                <p>Roasted langoustine, consommé</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu__list-right">
+                        <!-- 6 -->
+                        <div class="item">
+                            <div class="top">
+                                <span class="name">Viennese Veal Cutlet</span>
+                                <span class="price">1.000.000đ</span>                          
+                            </div>
+                            <div class="bottom">
+                                <p>Ricotta and spinach gnocchi, Caccio de Pepe</p>
+                            </div>
+                        </div>
+                        <!-- 7 -->
+                        <div class="item">
+                            <div class="top">
+                                <span class="name">Corrèze Pan-seared Veal Liver</span>
+                                <span class="price">1.000.000đ</span>                
+                            </div>                        
+                            <div class="bottom">
+                                <p>Olive oil mashed potato, onion jus</p>
+                            </div>    
+                        </div>
+                        <!-- 8 -->
+                        <div class="item">
+                            <div class="top">
+                                <span class="name">Cod Filet Cooked on One Side</span>
+                                <span class="price">1.000.000đ</span>                        
+                            </div>
+                            <div class="bottom">
+                                <p>Chorizo, chickpea espuma, pequillos</p>
+                            </div>
+                        </div>
+                        <!-- 9 -->
+                        <div class="item">
+                            <div class="top">
+                                <span class="name">Grilled Veal Filet Mignon</span>
+                                <span class="price">1.000.000đ</span>                           
+                            </div>        
+                            <div class="bottom">
+                                <p>Pumpkin, endives with hazelnuts</p>
+                            </div>                        
+                        </div>
+                        <!-- 10 -->
+                        <div class="item">
+                            <div class="top">
+                                <span class="name">Grilled Black Angus Sirloin Steak</span>
+                                <span class="price">1.000.000đ</span>
+                            </div>
+                            <div class="bottom">
+                                <p>Coin de rue’ potatoes, Béarnaise sauce</p>
+                            </div>                   
+                        </div>
+                    </div>
+                    <a href="./" class="btnmain">
+                        KHÁM PHÁ THÊM
+                    </a>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="columleft">
+                    <img src="img/colum-menu-home.svg" alt="">
+                </div>
+                <div class="columright">
+                    <img src="img/colum-menu-home.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="btnvideo" data-video-src="NEoFGaixiC8">
+                <img src="img/icon-playvideo-home.svg" alt="">
+            </div>
+        </section>
+        <section class="events pd">
+            <div class="container">
+                <div class="textbox-center">
+                    <h3 class="heading">
+                        events
+                    </h3>
+                    <span class="text">Be First Who Read News
+                        <span class="iconcenter"> </span>
+                    </span>
+                </div>
+                <div class="sliderlist">
+                    <!-- 1 -->
+                    <div class="sliderlist__item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/event-1.jpg" alt=""></a>
+                        </div>
+                        <div class="textinfo">
+                            <div class="date">
+                                <span class="infodate">
+                                    March 27, 2021
+                                </span>
+                                <a class="infoname">
+                                    Restaurants
+                                </a>
+                            </div>                       
+                            <a href="#" class="info">
+                                Elegant Dessert: 10 Tips How to Make It at Home
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="sliderlist__item">
+                        <div class="imgcenter">
+                            <a href=""><img src="img/event-2.jpg" alt=""></a>
+                        </div>
+                        <div class="textinfo">
+                            <div class="date">
+                                <span class="infodate">
+                                    March 27, 2021
+                                </span>
+                                <a class="infoname">
+                                    Restaurants
+                                </a>
+                            </div>
+                            <a href="#" class="info">
+                                Elegant Dessert: 10 Tips How to Make It at Home
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="sliderlist__item">
+                        <div class="imgcenter">
+                            <a href=""><img src="img/event-home.jpg" alt=""></a>                          
+                        </div>
+                        <div class="textinfo">
+                            <div class="date">
+                                <span class="infodate">
+                                    March 27, 2021
+                                </span>
+                                <a class="infoname">
+                                    Restaurants
+                                </a>
+                            </div>
+                            <a href="#" class="info">
+                                Elegant Dessert: 10 Tips How to Make It at Home
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="client">
+            <div class="container-fluid">
+                <a href="./" class="client__img">
+                    <img class="imgsvg" src="img/client-1-home.svg" alt="">
+                    <img class="imgpng" src="img/client-1s-home.png" alt="" style="width: 201px; height: 60px;">
+                </a>
+                <a href="./" class="client__img">
+                    <img class="imgsvg" src="img/client-2-home.svg" alt="">
+                    <img class="imgpng" src="img/client-2s-home.png" alt="" style="width: 196px; height: 40px;">
+                </a>
+                <a href="./" class="client__img">
+                    <img class="imgsvg" src="img/client-1-home.svg" alt="">
+                    <img class="imgpng" src="img/client-1s-home.png" alt="" style="width: 201px; height: 60px;">
+                </a>
+                <a href="./" class="client__img" >
+                    <img class="imgsvg" src="img/client-3-home.svg" alt="">
+                    <img class="imgpng" src="img/client-3s-home.png" alt="" style="width: 133px; height: 80px;">
+                </a>
+                <a href="./" class="client__img">
+                    <img class="imgsvg" src="img/client-4-home.svg" alt="">
+                    <img class="imgpng" src="img/client-4s-home.png" alt="" style="width: 159px; height: 50px;">
+                </a>               
+            </div>
+        </section>
+        <section class="message pd">
+            <div class="container">
+                <div class="textbox">
+                    <h3 class="heading">
+                        Thông điệp
+                    </h3>
+                    <span class="text">Be First Who Read News
+                        <span class="iconcenter"> </span>
+                    </span>                  
+                    <img class="bigicon" src="img/icon-mess-home.svg" alt="">
+                </div>
+                <div class="message__list">
+                    <div class="message__list-item">
+                        <p class="desc">
+                            “Because a restaurant’s story is never complete, there is always something new and wonderful to discover. An
+                            evening
+                            spent at Benoit is like boarding a golden ship through a Parisian night.”
+                        </p>
+                        <p class="descI">
+                            Dominicana Rodrigez
+                        </p>
+                        <div class="info">
+                            <a href="">Clients of Restaurants</a>
+                        </div>
+                    </div>
+                    <div class="message__list-item">
+                        <p class="desc">
+                            “Because a restaurant’s story is never complete, there is always something new and wonderful to discover. An
+                            evening
+                            spent at Benoit is like boarding a golden ship through a Parisian night.”
+                        </p>
+                        <p class="descI">
+                            Dominicana Rodrigez
+                        </p>
+                        <div class="info">
+                            <a href="">Clients of Restaurants</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="icon">
+                    <i class="left"><img src="img/icon-vector-left-home.svg" alt=""></i>
+                    <i class="right"><img src="img/icon-vector-right-home.svg" alt=""></i>
+                </div> -->
+            </div>
+        </section>
+        <section class="location pd">
+            <div class="container">
+                <div class="location__list">
+                    <!-- 1 -->
+                    <div class="location__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/location-1-home.jpg" alt=""></a>
+                        </div>                         
+                        <div class="info">
+                            <a href="./" class="title">Grand World Phú Quốc</a>
+                            <a href="./" class="name">Assitant Chef</a>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="location__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/location-2-home.jpg" alt=""></a>\
+                        </div>
+                        <div class="info">
+                                <a href="./" class="title">Hòn Thơm</a>
+                                <a href="./" class="name">Assitant Chef</a>
+                        </div>                
+                    </div>
+                    <!-- 3 -->
+                    <div class="location__list-item ">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/location-3-home.jpg" alt=""></a>                    
+                        </div>
+                        <div class="info">
+                                <a href="./" class="title">Gành Dầu</a>
+                                <a href="./" class="name">Assitant Chef</a>
+                        </div>
+                    </div>          
+                    <!-- 4 -->
+                    <div class="location__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/location-4-home.jpg" alt=""></a>
+                            
+                        </div>
+                        <div class="info">
+                                <a href="./" class="title">Quần đảo An Thới</a>
+                                <a href="./" class="name">Assitant Chef</a>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="location__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/location-5-home.jpg" alt=""></a>
+                        </div>                     
+                        <div class="info">
+                                <a href="./" class="title">Bãi Dài</a>
+                                <a href="./" class="name">Assitant Chef</a>
+                        </div>          
+                    </div>
+                    <!-- 6 -->
+                    <div class="location__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/location-4-home.jpg" alt=""></a>
+                        </div>  
+                        <div class="info">
+                            <a href="./" class="title">Quần đảo An Thới</a>
+                            <a href="./" class="name">Assitant Chef</a>
+                        </div>               
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="somefacts">
+            <div class="container">
+                <div class="somefacts__left">
+                    <div class="imgcolum">
+                        <div class="backgroundCL"></div>
+                    </div>
+                    <form class="form">
+                        <h3 class="heading">Make a Reserve</h3>
+                            <div class="name">
+                                <input type="text" value="" placeholder="Họ tên*">
+                            </div>
+                            <div class="phone">
+                                <input type="number" value="" placeholder="Điện thoại*">
+                            </div>
+                            <section class="amount">
+                                <select name="select">
+                                    <option value="">1 Người</option>
+                                    <option value="">2 Người</option>
+                                    <option value="">3 Người</option>
+                                    <option value="">4 Người</option>
+                                </select>
+                            </section>
+                            <div class="date">
+                                <input type="date" value="2022-02-25">
+                            </div>
+                            <div class="time">
+                                <input type="time" value="19:00">
+                            </div>
+                            <a href="./" class="btnheader">
+                                <span class="text">ĐẶT BÀN</span>
+                            </a>
+                    </form>
+                </div>
+                <div class="somefacts__right">
+                    <div class="textbox">
+                        <h3 class="heading">
+                            Some Facts
+                        </h3>
+                        <span class="text">Enhancing Your Feelings
+                            <span class="iconcenter"> </span>
+                        </span>
+                        <p class="desc">
+                            From signature delights such as beef tartare and the best mashed potato in Paris, all the way to unique specialities
+                            such as thinly sliced Brittany artichokes with truffles.
+                        </p>
+                        <div class="numbertext">
+                            <div class="left">
+                                <span class="number">
+                                    0
+                                </span>
+                                <p class="descI">
+                                    Clients Every Day
+                                </p>
+                            </div>
+                            <div class="right">
+                                <span class="number">
+                                    0
+                                </span>
+                                <p class="descI">
+                                    Great Moments
+                                </p>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog pd">
+            <div class="container">
+                <div class="textbox-center">
+                    <h3 class="heading">
+                        Our blog
+                    </h3>
+                    <span class="text">Be First Who Read News
+                        <span class="iconcenter"> </span>
+                    </span>
+                </div>
+                <div class="sliderlist">
+                    <!-- 1 -->
+                    <div class="sliderlist__item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/blog-1-home.jpg" alt=""></a>
+                        </div>
+                        <div class="textinfo">
+                            <div class="date">
+                                <span class="infodate">
+                                    March 27, 2021
+                                </span>
+                                <a class="infoname">
+                                    Restaurants
+                                </a>
+                            </div>
+                            <a href="#" class="info">
+                                Elegant Dessert: 10 Tips How to Make It at Home
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="sliderlist__item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/blog-2-home.jpg" alt=""></a>
+                        </div>
+                        <div class="textinfo">
+                            <div class="date">
+                                <span class="infodate">
+                                    March 27, 2021
+                                </span>
+                                <a class="infoname">
+                                    News and Tips
+                                </a>
+                            </div>
+                            <a href="#" class="info">
+                                Elegant Dessert: 10 Tips How to Make It at Home
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="sliderlist__item">
+                        <div class="imgcenter">
+                            <a href=""><img src="img/blog-3-home.jpg" alt=""></a>
+                        </div>
+                        <div class="textinfo">
+                            <div class="date">
+                                <span class="infodate">
+                                    March 27, 2021
+                                </span>
+                                <a class="infoname">
+                                    Food & Drinks
+                                </a>
+                            </div>
+                            <a href="#" class="info">
+                                Elegant Dessert: 10 Tips How to Make It at Home
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="btnblog">
+                    <a href="./" class="btnmain">
+                        KHÁM PHÁ THÊM
+                    </a>
+                </div>
+                <div class="logoblog">
+                    <img src="img/logo-blog-home.svg" alt="">
+                </div>                  
+            </div>      
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="Contacts">
+                <span>
+                    Contacts
+                </span>
+                <a class="item" href="https://goo.gl/maps/4d1f7m1Cys5bVrj2A" target="_blank">
+                    <img src="img/icon-location-footer-home.svg" alt="">
+                    <p class="desc">5 Rue Dalou, 75015 Paris</p> 
+                </a>
+                <a class="item" href="tel:+33156788956">
+                    <img class="iconitem" src="img/icon-phone-footer-home.svg" alt="">
+                    <p class="desc">+33 156 78 89 56</p> 
+                </a>
+                <a class="item" href="mailto:benoit@mail.com">
+                    <img src="img/icon-mail-footer-home.svg" alt="">
+                    <p class="desc">reservation</p> 
+                </a>
+            </div>
+            <div class="info">
+                <div class="info__logo">
+                    <a href="./">
+                        <img src="img/logo-footer-home.svg" alt="">
+                    </a>
+                </div>
+                <div class="info__p">
+                    <p>
+                        Whisper to us about your feelings, and we will prepare what you need now.
+                    </p>
+                </div>
+                <div class="info__icon">
+                    <a href="https://twitter.com/" target="_blank">
+                        <img class="iconfooter" src="img/icon-twit-footer-home.svg" alt=""></a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img class="iconfooter" src="img/icon-fb-footer-home.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <img class="iconfooter" src="img/icon-in-footer-home.svg" alt=""></a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img class="iconfooter" src="img/icon-insta-footer-home.svg" alt=""></a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img class="iconfooter" src="img/icon-youtube-footer-home.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="timeopen">
+                <span>Giờ mở cửa</span>
+                <div class="datetime">
+                    <p class="date">Thứ 2 – Thứ 6</p>
+                    <p class="time">: 7:00 giờ – 18:00 giờ</p>
+                </div>
+                <div class="datetime">
+                    <p class="date">Thứ 7</p>
+                    <p class="time">: 7:00 giờ – 18:00 giờ</p>
+                </div>
+                <div class="datetime">
+                    <p class="date">Chủ Nhật</p>
+                    <p class="time">: 7:00 giờ – 18:00 giờ</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="end">
+                <span>
+                    Copyright © 2022 Sunset Sorrento Restaurant. All Rights Reserved.
+                </span>
+            </div>
+        </div>
+    </footer>
+    <div class="popupvideo">
+        <div class="popupvideo__inner">
+            <div class="popupvideo__inner-iframe">
+                <iframe width="100%" height="100%" src="" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>            
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="close">
+                <img src="img/close.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="backtotop">
+        <img src="img/totop.svg" alt="">
+    </div>
+    </body>
+    <script type="text/javascript" src="dest/jsmain.min.js"></script>
+    <script type="text/javascript" src="dest/main.js"></script>
+</html>

@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Benoit</title>
+    <link rel="icon" href="favicon.ico">
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+
+    <!-- meta facebook -->
+    <meta property="og:locale" content="vi" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="stylesheet" href="dest/style.min.css">
+    <link rel="stylesheet" href="dest/fonts.css">
+</head>
+
+<!-- Mỗi body của mỗi page nên có class ví dụ homepage, aboutpage, contactpage... -->
+
+<body class="homepage">
+    <!-- HEADER -->
+    <header class="header pd">
+        <div class="container-fluid">
+            <div class="btnmenu"><span></span></div>
+            <div class="header__logo">
+                <a href="./">
+                    <img src="img/logo-header-home.svg" alt="">
+                </a>
+            </div>
+            <ul class="header__menu">
+                <li>
+                    <a href="index.html">TRANG CHỦ</a>
+                    <ul class="select">
+                        <li>
+                            <a href="index.html">TRANG CHỦ</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">BLOG</a>
+                            <a href="detailblog.html">CHI TIẾT BLOG</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="about.html">VỀ CHÚNG TÔI</a>
+                    <ul class="select">
+                        <li>
+                            <a href="about.html">VỀ CHÚNG TÔI</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="services.html">DỊCH VỤ</a>
+                    <ul class="select">
+                        <li>
+                            <a href="detailservices.html">CHI TIẾT DỊCH VỤ</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="event.html">SỰ KIỆN</a>
+                    <ul class="select">
+                        <li>
+                            <a href="detailevent.html">CHI TIẾT SỰ KIỆN</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="menuasian.html">THỰC ĐƠN</a>
+                    <ul class="select">
+                        <li>
+                            <a href="menuasian.html">MÓN Á</a>
+                            <a href="menueurope.html">MÓN ÂU</a>
+                            <a href="menudessert.html">MÓN TRÁNG MIỆNG</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="location.html">ĐIỂM ĐẾN</a>
+                    <ul class="select">
+                        <li>
+                            <a href="detaillocation.html">ĐIỂM ĐẾN CHI TIẾT</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="library.html" class="active">THƯ VIỆN</a>
+                    <ul class="select">
+                        <li>
+                            <a href="library.html">THƯ VIỆN</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact.html">LIÊN HỆ</a>
+                    <ul class="select">
+                        <li>
+                            <a href="contact.html">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="header__right">
+                <div class="header__right-lang">
+                    <span class="text">EN</span>
+                    <div class="select">
+                        <a href="#" class="item">VN</a>
+                        <a href="#" class="item">JP</a>
+                        <a href="#" class="item">UA</a>
+                    </div>
+                </div>
+                <a href="./" class="btnheader">
+                    <span class="text">ĐẶT BÀN</span>
+                </a>
+            </div>
+            <div class="nav">
+                <div class="nav__menu">
+                    <a class="logonav" href="./">
+                        <img src="img/logo-header-home.svg" alt="">
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="index.html" class="active">TRANG CHỦ</a>
+                        </li>
+                        <li>
+                            <a href="about.html">VỀ CHÚNG TÔI</a>
+                        </li>
+                        <li>
+                            <a href="services.html">DỊCH VỤ</a>
+                        </li>
+                        <li>
+                            <a href="event.html">SỰ KIỆN</a>
+                        </li>
+                        <li>
+                            <a href="menuasian.html">THỰC ĐƠN</a>
+                        </li>
+                        <li>
+                            <a href="location.html">ĐIỂM ĐẾN</a>
+                        </li>
+                        <li>
+                            <a href="library.html">THƯ VIỆN</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <!-- Example HTML -->
+        <section class="sliderAB">
+            <div class="sliderAB__list">
+                <img class="imgslide" src="img/banner-lib.jpg" alt="">
+            </div>
+            <div class="container">
+                <div class="titleslider">
+                    <div class="left">
+                        <span class="title">
+                            THƯ VIỆN
+                        </span>
+                    </div>
+                    <div class="right">
+                        <a href="index.html" class="back">
+                            TRANG CHỦ
+                        </a>
+                        <p class="name">
+                            THƯ VIỆN
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="lib pd">
+            <div class="container">
+                <div class="lib__tag">
+                    <div class="lib__tag-item active" data-tab="1">tất cả</div>
+                    <div class="lib__tag-item" data-tab="2">ẩm thực</div>
+                    <div class="lib__tag-item" data-tab="3">recipes</div>
+                    <div class="lib__tag-item" data-tab="4">nhà hàng</div>
+                    <div class="lib__tag-item" data-tab="5">cà phê</div>
+                </div>
+                <!-- 1 -->
+                <div class="lib__list lib__list-1 active">
+                    <!-- 1 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/lib-1.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/lib-2.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/lib-3.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/lib-4.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/lib-5.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/lib-6.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 7 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/lib-7.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 8 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/lib-8.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 9 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/lib-9.jpg" alt=""></a>
+                        </div>
+                    </div>
+                   
+                </div>
+                <!-- ẨM THỰC -->
+                <div class="lib__list lib__list-2">
+                    <!-- 1 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/lib-3.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/detaievent-gallery-1.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/menu-asian-1.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/menu-a-2.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/menu-a-3.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/menu-europe-2.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 7 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/menu-europe-3.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 8 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/lib-6.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 9 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/lib-8.jpg" alt=""></a>
+                        </div>
+                    </div>
+                
+                </div>
+                <!-- recipes -->
+                <div class="lib__list lib__list-3">
+                    <!-- 1 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/blog-1.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/blog-2.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/blog-4.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/blog-5.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/blog-6.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/blog-7.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 7 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/service-2.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 8 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/blog-9.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 9 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/service-1.jpg" alt=""></a>
+                        </div>
+                    </div>
+                
+                </div>
+                <!-- NHÀ HÀNG -->
+                <div class="lib__list lib__list-4">
+                    <!-- 1 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/banner-blog.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/banner-home.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/banner-dateilblog.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/banner-lib.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/banner-menu-asian.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/slide-about.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 7 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/slider-service.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 8 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/slide-detailevent.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 9 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/service-about.jpg" alt=""></a>
+                        </div>
+                    </div>
+                
+                </div>
+                <!-- CA PHÊ -->
+                <div class="lib__list lib__list-5">
+                    <!-- 1 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/service-some.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/menu-asian-4.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/lib-2.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/blog-3-home.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/detaievent-gallery-6.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/img-top-detailevent.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 7 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/lib-4.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 8 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/coffee-8.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 9 -->
+                    <div class="lib__list-item">
+                        <div class="imgcenter">
+                            <a href="./"><img src="img/coffee-9.jpg" alt=""></a>
+                        </div>
+                    </div>
+                
+                </div>
+                <a href="./" class="btnmain">
+                    KHÁM PHÁ THÊM
+                </a>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="Contacts">
+                <span>
+                    Contacts
+                </span>
+                <a class="item" href="https://goo.gl/maps/4d1f7m1Cys5bVrj2A" target="_blank">
+                    <img src="img/icon-location-footer-home.svg" alt="">
+                    <p class="desc">5 Rue Dalou, 75015 Paris</p>
+                </a>
+                <a class="item" href="tel:+33156788956">
+                    <img class="iconitem" src="img/icon-phone-footer-home.svg" alt="">
+                    <p class="desc">+33 156 78 89 56</p>
+                </a>
+                <a class="item" href="mailto:benoit@mail.com">
+                    <img src="img/icon-mail-footer-home.svg" alt="">
+                    <p class="desc">reservation</p>
+                </a>
+            </div>
+            <div class="info">
+                <div class="info__logo">
+                    <a href="./">
+                        <img src="img/logo-footer-home.svg" alt="">
+                    </a>
+                </div>
+                <div class="info__p">
+                    <p>
+                        Whisper to us about your feelings, and we will prepare what you need now.
+                    </p>
+                </div>
+                <div class="info__icon">
+                    <a href="https://twitter.com/" target="_blank">
+                        <img class="iconfooter" src="img/icon-twit-footer-home.svg" alt=""></a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img class="iconfooter" src="img/icon-fb-footer-home.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <img class="iconfooter" src="img/icon-in-footer-home.svg" alt=""></a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img class="iconfooter" src="img/icon-insta-footer-home.svg" alt=""></a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img class="iconfooter" src="img/icon-youtube-footer-home.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="timeopen">
+                <span>Giờ mở cửa</span>
+                <div class="datetime">
+                    <p class="date">Thứ 2 – Thứ 6</p>
+                    <p class="time">: 7:00 giờ – 18:00 giờ</p>
+                </div>
+                <div class="datetime">
+                    <p class="date">Thứ 7</p>
+                    <p class="time">: 7:00 giờ – 18:00 giờ</p>
+                </div>
+                <div class="datetime">
+                    <p class="date">Chủ Nhật</p>
+                    <p class="time">: 7:00 giờ – 18:00 giờ</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="end">
+                <span>
+                    Copyright © 2022 Sunset Sorrento Restaurant. All Rights Reserved.
+                </span>
+            </div>
+        </div>
+    </footer>
+    <div class="popupvideo">
+        <div class="popupvideo__inner">
+            <div class="popupvideo__inner-iframe">
+                <iframe width="100%" height="100%" src="" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="close">
+                <img src="img/close.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="backtotop">
+        <img src="img/totop.svg" alt="">
+    </div>
+</body>
+<script type="text/javascript" src="dest/jsmain.min.js"></script>
+<script type="text/javascript" src="dest/main.js"></script>
+
+</html>
